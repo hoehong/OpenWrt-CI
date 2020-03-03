@@ -98,9 +98,9 @@ jobs:
 
           # 编译x64固件:
           # cat >> .config <<EOF
-          # CONFIG_TARGET_x86=y
-          # CONFIG_TARGET_x86_64=y
-          # CONFIG_TARGET_x86_64_Generic=y
+          # CONFIG_TARGET_MediaTek Ralink MIPS=y
+          # CONFIG_TARGET_MT7621 based boards=y
+          # CONFIG_TARGET_Newifi D2=y
           # EOF
 
           # 固件压缩:
